@@ -1,0 +1,8 @@
+{
+  "name": "CoinPayments",
+  "description": "plugin for coin payments",
+  "namespace": "CoinPayments",
+  "author": "b.nikita",
+  "type": "template",
+  "serviceProvider": "CoinPayments\\Providers\\CoinPaymentServiceProvider"
+}
