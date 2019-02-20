@@ -10,6 +10,6 @@ class CoinPaymentRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
-        $router->get('CoinPayments','CoinPayments\Controllers\ContentController@index');
+        $router->get('coinpayments','CoinPayments\Controllers\ContentController@index');
     }
 }
