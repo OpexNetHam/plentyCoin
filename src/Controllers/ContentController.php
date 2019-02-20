@@ -1,15 +1,21 @@
 <?php
-
-namespace CoinPayments\Controllers;
-
+namespace HelloWorld\Controllers;
 
 use Plenty\Plugin\Controller;
 use Plenty\Plugin\Templates\Twig;
 
+/**
+ * Class ContentController
+ * @package HelloWorld\Controllers
+ */
 class ContentController extends Controller
 {
-    public function index(Twig $twig):string
-    {
-        return $twig->render('coinPayments::TEMPLATE');
-    }
+	/**
+	 * @param Twig $twig
+	 * @return string
+	 */
+	public function sayHello(Twig $twig):string
+	{
+		return $twig->render('HelloWorld::content.hello');
+	}
 }

@@ -1,8 +1,8 @@
 {
-  "name": "CoinPayments",
-  "description": "plugin for coin payments",
-  "namespace": "CoinPayments",
-  "author": "b.nikita",
-  "type": "template",
-  "serviceProvider": "CoinPayments\\Providers\\CoinPaymentServiceProvider"
+      "name":"HelloWorld",
+      "description":"My first plugin",
+      "namespace":"HelloWorld",
+      "author":"Christian Moll",
+      "type":"template",
+      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
 }
